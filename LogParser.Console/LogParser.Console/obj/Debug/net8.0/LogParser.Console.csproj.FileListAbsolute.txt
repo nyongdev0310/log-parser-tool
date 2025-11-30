@@ -1,0 +1,15 @@
+D:\000000_source\log-parser-tool\LogParser.Console\LogParser.Console\bin\Debug\net8.0\LogParser.Console.exe
+D:\000000_source\log-parser-tool\LogParser.Console\LogParser.Console\bin\Debug\net8.0\LogParser.Console.deps.json
+D:\000000_source\log-parser-tool\LogParser.Console\LogParser.Console\bin\Debug\net8.0\LogParser.Console.runtimeconfig.json
+D:\000000_source\log-parser-tool\LogParser.Console\LogParser.Console\bin\Debug\net8.0\LogParser.Console.dll
+D:\000000_source\log-parser-tool\LogParser.Console\LogParser.Console\bin\Debug\net8.0\LogParser.Console.pdb
+D:\000000_source\log-parser-tool\LogParser.Console\LogParser.Console\obj\Debug\net8.0\LogParser.Console.GeneratedMSBuildEditorConfig.editorconfig
+D:\000000_source\log-parser-tool\LogParser.Console\LogParser.Console\obj\Debug\net8.0\LogParser.Console.AssemblyInfoInputs.cache
+D:\000000_source\log-parser-tool\LogParser.Console\LogParser.Console\obj\Debug\net8.0\LogParser.Console.AssemblyInfo.cs
+D:\000000_source\log-parser-tool\LogParser.Console\LogParser.Console\obj\Debug\net8.0\LogParser.Console.csproj.CoreCompileInputs.cache
+D:\000000_source\log-parser-tool\LogParser.Console\LogParser.Console\obj\Debug\net8.0\LogParser.Console.sourcelink.json
+D:\000000_source\log-parser-tool\LogParser.Console\LogParser.Console\obj\Debug\net8.0\LogParser.Console.dll
+D:\000000_source\log-parser-tool\LogParser.Console\LogParser.Console\obj\Debug\net8.0\refint\LogParser.Console.dll
+D:\000000_source\log-parser-tool\LogParser.Console\LogParser.Console\obj\Debug\net8.0\LogParser.Console.pdb
+D:\000000_source\log-parser-tool\LogParser.Console\LogParser.Console\obj\Debug\net8.0\LogParser.Console.genruntimeconfig.cache
+D:\000000_source\log-parser-tool\LogParser.Console\LogParser.Console\obj\Debug\net8.0\ref\LogParser.Console.dll

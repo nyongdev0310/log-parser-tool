@@ -1,0 +1,9 @@
+Level,Message
+INFO,"Application started"
+INFO,"User 'alice' logged in"
+WARN,"Configuration file not found, using default"
+ERROR,"Failed to connect to database"
+INFO,"Retrying connection..."
+ERROR,"Connection retry failed"
+WARN,"Low disk space on drive C:"
+INFO,"Application shutdown requested"

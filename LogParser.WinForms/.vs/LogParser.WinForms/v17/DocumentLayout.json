@@ -1,0 +1,68 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\000000_source\\log-parser-tool\\LogParser.WinForms\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{72EA894E-08A9-4DA3-82E2-5B551BF05810}|LogParser.WinForms\\LogParser.WinForms.csproj|d:\\000000_source\\log-parser-tool\\logparser.winforms\\logparser.winforms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72EA894E-08A9-4DA3-82E2-5B551BF05810}|LogParser.WinForms\\LogParser.WinForms.csproj|solutionrelative:logparser.winforms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72EA894E-08A9-4DA3-82E2-5B551BF05810}|LogParser.WinForms\\LogParser.WinForms.csproj|D:\\000000_source\\log-parser-tool\\LogParser.WinForms\\logparser.winforms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{72EA894E-08A9-4DA3-82E2-5B551BF05810}|LogParser.WinForms\\LogParser.WinForms.csproj|solutionrelative:logparser.winforms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72EA894E-08A9-4DA3-82E2-5B551BF05810}|LogParser.WinForms\\LogParser.WinForms.csproj|D:\\000000_source\\log-parser-tool\\LogParser.WinForms\\logparser.winforms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72EA894E-08A9-4DA3-82E2-5B551BF05810}|LogParser.WinForms\\LogParser.WinForms.csproj|solutionrelative:logparser.winforms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "D:\\000000_source\\log-parser-tool\\LogParser.WinForms\\LogParser.WinForms\\MainForm.cs",
+              "RelativeDocumentMoniker": "LogParser.WinForms\\MainForm.cs",
+              "ToolTip": "D:\\000000_source\\log-parser-tool\\LogParser.WinForms\\LogParser.WinForms\\MainForm.cs",
+              "RelativeToolTip": "LogParser.WinForms\\MainForm.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwBgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T13:46:43.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\000000_source\\log-parser-tool\\LogParser.WinForms\\LogParser.WinForms\\Program.cs",
+              "RelativeDocumentMoniker": "LogParser.WinForms\\Program.cs",
+              "ToolTip": "D:\\000000_source\\log-parser-tool\\LogParser.WinForms\\LogParser.WinForms\\Program.cs",
+              "RelativeToolTip": "LogParser.WinForms\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T13:46:23.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "D:\\000000_source\\log-parser-tool\\LogParser.WinForms\\LogParser.WinForms\\MainForm.cs",
+              "RelativeDocumentMoniker": "LogParser.WinForms\\MainForm.cs",
+              "ToolTip": "D:\\000000_source\\csv-excel-converter\\LogParser.WinForms\\LogParser.WinForms\\MainForm.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "..\\..\\csv-excel-converter\\LogParser.WinForms\\LogParser.WinForms\\MainForm.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T13:46:20.488Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
