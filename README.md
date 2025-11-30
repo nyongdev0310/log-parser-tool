@@ -1,9 +1,8 @@
 # 📜 Log Parser & Analyzer (Console + WinForms)
 
-A small but powerful utility that parses log files using regular expressions  
-and exports structured results into a CSV file.
-
-Perfect for demonstrating **Regex, text parsing, file IO, and tooling skills**.
+A compact yet powerful utility that parses log files using regular expressions
+and exports clean, structured results into a CSV file.
+Ideal for demonstrating **regex, text‑processing, automation, and tooling** skills.
 
 ---
 
@@ -20,13 +19,13 @@ Perfect for demonstrating **Regex, text parsing, file IO, and tooling skills**.
 
 ---
 
-## 🎥 Demo Video (YouTube)
+## 💼 Use Cases
 
-[![Log Parser Demo](https://img.youtube.com/vi/U9jI7v6t96o/0.jpg)](https://youtu.be/U9jI7v6t96o)
-
-You can watch a full demonstration of how the Log Parser works,  
-including selecting the log file, parsing INFO/WARN/ERROR entries,  
-and exporting them into a CSV file.
+- Extract meaningful logs (INFO/WARN/ERROR) from large server logs
+- Convert messy log files into structured CSV for analysis
+- Debug production issues by isolating important log events
+- Preprocess logs for BI/analytics pipelines
+- Provide small utility tools for ongoing system monitoring tasks
 
 ---
 
@@ -42,15 +41,15 @@ and exporting them into a CSV file.
 ## 📂 Project Structure
 
 /log-parser-tool
-/ConsoleVersion
-/WinFormsVersion
-/sample
-log.txt
-result.csv
-/screenshots
-01-main.png
-02-selected-file.png
-03-finished.png
+  /LogParser.Console
+  /LogParser.WinForms
+  /sample
+    log.txt
+    log.csv
+  /screenshots
+    01-main.png
+    02-selected-file.png
+    03-finished.png
 
 ---
 
@@ -60,6 +59,50 @@ result.csv
 2. Select CSV output file  
 3. Click **Parse**  
 4. Review results  
+
+---
+
+## ▶ How to Use (Console)
+
+Run the console version from the project directory:
+
+```bash
+dotnet run
+```
+
+Default paths:
+```text
+Input file:    sample/log.txt
+Output file:   sample/result.csv
+```
+
+You can also pass custom paths:
+```bash
+dotnet run "C:\logs\server.log" "C:\output\parsed.csv"
+```
+
+After running, the console will:
+- Parse INFO/WARN/ERROR lines
+- Skip irrelevant entries
+- Generate result.csv with structured output
+
+---
+
+## 🎥 Demo Video (YouTube)
+
+[![Log Parser Demo](https://img.youtube.com/vi/U9jI7v6t96o/0.jpg)](https://youtu.be/U9jI7v6t96o)
+
+You can watch a full demonstration of how the Log Parser works,  
+including selecting the log file, parsing INFO/WARN/ERROR entries,  
+and exporting them into a CSV file.
+
+---
+
+## 📸 Screenshots
+
+| Main Window | After Selecting CSV | Conversion Completed |
+|------------|---------------------|----------------------|
+| ![](screenshots/01-main.png) | ![](screenshots/02-selected-file.png) | ![](screenshots/03-finished.png) |
 
 ---
 
@@ -84,11 +127,6 @@ ERROR,Failed to connect to database
 
 ---
 
-## 📸 Screenshots
-(Add your screenshots here)
-
----
-
 ## ⚠ Limitations
 
 - Only INFO/WARN/ERROR supported
@@ -97,7 +135,7 @@ ERROR,Failed to connect to database
 
 ---
 
-## 🚀 Enhancements (Optional)
+## 🚀 Enhancements
 
 - Timestamp parsing
 - Support DEBUG/TRACE
@@ -107,4 +145,6 @@ ERROR,Failed to connect to database
 ---
 
 ## 📜 License
+
 MIT License
+Copyright (c) 2025
