@@ -1,12 +1,36 @@
-# 📜 Log Parser & Analyzer (Console + WinForms)
+---
 
-A compact yet powerful utility that parses log files using regular expressions
-and exports clean, structured results into a CSV file.
-Ideal for demonstrating **regex, text‑processing, automation, and tooling** skills.
+## Overview
+A Windows GUI tool that helps non-technical teams parse large log files and export clean CSV reports quickly and reliably.
 
 ---
 
-## ✨ Features
+## What this is for
+- Turning messy operational logs into consistent, analysis-ready CSV outputs.
+- Supporting real-world batch processing with clear progress and results.
+
+---
+
+## Key features
+- Simple GUI flow for non-technical users.
+- Batch parsing with progress/status feedback.
+- Clean CSV export with predictable structure.
+
+---
+
+## Edge cases handled
+- Supports large log files with stable output and clear error reporting.
+- Designed to continue safely when partial errors occur (with logs).
+- Keeps results consistent even when input formats vary slightly.
+
+---
+
+## Maintenance-ready by design
+Uses config-first settings and structured logging so the parsing rules and outputs can be safely extended and reused.
+
+---
+
+## Features
 
 - Parse `[INFO]`, `[WARN]`, `[ERROR]` lines  
 - Extract log level + message  
@@ -19,7 +43,7 @@ Ideal for demonstrating **regex, text‑processing, automation, and tooling** sk
 
 ---
 
-## 💼 Use Cases
+## Use Cases
 
 - Extract meaningful logs (INFO/WARN/ERROR) from large server logs
 - Convert messy log files into structured CSV for analysis
@@ -29,7 +53,7 @@ Ideal for demonstrating **regex, text‑processing, automation, and tooling** sk
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 - **C# / .NET**
 - **Regex**
@@ -38,7 +62,7 @@ Ideal for demonstrating **regex, text‑processing, automation, and tooling** sk
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 /log-parser-tool
   /LogParser.Console
@@ -53,7 +77,7 @@ Ideal for demonstrating **regex, text‑processing, automation, and tooling** sk
 
 ---
 
-## ▶ How to Use (WinForms)
+## How to Use (WinForms)
 
 1. Select `log.txt`  
 2. Select CSV output file  
@@ -62,7 +86,7 @@ Ideal for demonstrating **regex, text‑processing, automation, and tooling** sk
 
 ---
 
-## ▶ How to Use (Console)
+## How to Use (Console)
 
 Run the console version from the project directory:
 
@@ -88,7 +112,7 @@ After running, the console will:
 
 ---
 
-## 🎥 Demo Video (YouTube)
+## Demo Video (YouTube)
 
 [![Log Parser Demo](https://img.youtube.com/vi/U9jI7v6t96o/0.jpg)](https://youtu.be/U9jI7v6t96o)
 
@@ -98,15 +122,15 @@ and exporting them into a CSV file.
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
-| Main Window | After Selecting CSV | Conversion Completed |
+| Main Window | Log Selected | CSV Exported |
 |------------|---------------------|----------------------|
 | ![](screenshots/01-main.png) | ![](screenshots/02-selected-file.png) | ![](screenshots/03-finished.png) |
 
 ---
 
-## ▶ Example Log Format
+## Example Log Format
 
 **Input:**
 
@@ -117,7 +141,9 @@ and exporting them into a CSV file.
 
 Some random line
 [DEBUG] Debug message (ignored)
+```
 
+```text
 Output CSV:
 Level,Message
 INFO,Application started
@@ -127,15 +153,15 @@ ERROR,Failed to connect to database
 
 ---
 
-## ⚠ Limitations
+## Limitations
 
 - Only INFO/WARN/ERROR supported
 - DEBUG and other formats are ignored
-- No timestamp extraction
+- No timestamp extraction. If needed, I can add it quickly
 
 ---
 
-## 🚀 Enhancements
+## Enhancements
 
 - Timestamp parsing
 - Support DEBUG/TRACE
@@ -144,7 +170,7 @@ ERROR,Failed to connect to database
 
 ---
 
-## 📜 License
+## License
 
 MIT License
 Copyright (c) 2025
